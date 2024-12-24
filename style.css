@@ -85,11 +85,13 @@ body {
   }
 
   .social-icon {
+    max-width: 24px;
     max-height: 24px;
     margin-left: 8px;
   }
   
   .social-icon2 {
+    max-width: 24px;
     max-height: 24px;
     margin-right: 6px;
   }
