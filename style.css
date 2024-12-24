@@ -13,60 +13,79 @@ body {
   }
   
   .header h1 {
-    font-size: 3rem;
-    margin-top: 2rem;
+    font-size: 4rem;
+    letter-spacing: 10px;
+    /* margin-top: 2rem; */
     font-weight: bold;
+    padding-bottom: 100px;
+    padding-top: 40px;
   }
   
   .main-content {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #333;
+    background-color: #323433;
     padding: 2rem;
     width: 100vw; /* Розтягує на ширину екрана */
     color: #f6d7a7;
+    max-height: 250px;
   }
   
   .book {
-    flex: 1;
+    /* flex: 1; */
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 20px;
   }
   
   .book-image {
-    max-width: 200px;
-    border-radius: 5px;
+    max-height: 400px;
+    margin-right: 44px;
   }
   
   .book-info {
-    flex: 1;
     text-align: left;
-    margin-left: 2rem;
+    margin-right: 100px;
   }
   
   .book-info h2 {
     font-size: 2rem;
+    font-weight: 400;
     margin: 0;
   }
   
   .book-info p {
-    font-size: 1.2rem;
+    font-size: 1rem;
+    font-weight: 300;
     margin: 0.5rem 0;
   }
   
   .buy-button {
-    background-color: #f6f6f6;
-    color: #333;
+    background-color: #CED0CF;
+    color: #323433;
     padding: 0.5rem 1rem;
     border: none;
     border-radius: 5px;
     font-size: 1rem;
     cursor: pointer;
+    margin-top: 16px;
   }
   
   .buy-button:hover {
-    background-color: #ddd;
+    background-color: #ffffff;
+  }
+
+  .social {
+    /* margin: 24px; */
+    position: fixed;
+    top: 24px;
+    right: 24px;
+  }
+
+  .social-icon {
+    max-height: 24px;
+    margin-left: 8px;
   }
   
