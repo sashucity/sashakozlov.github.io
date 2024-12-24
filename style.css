@@ -15,15 +15,16 @@ body {
   .header h1 {
     font-size: 3rem;
     margin-top: 2rem;
-    font-weight: 700; /* Bold weight */
+    font-weight: bold;
   }
   
   .main-content {
     display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #333;
     padding: 2rem;
-    border-radius: 10px;
-    margin: 2rem;
+    width: 100vw; /* Розтягує на ширину екрана */
     color: #f6d7a7;
   }
   
@@ -47,16 +48,15 @@ body {
   
   .book-info h2 {
     font-size: 2rem;
-    font-weight: 600; /* Bold weight */
+    margin: 0;
   }
   
   .book-info p {
     font-size: 1.2rem;
-    font-weight: 400; /* Regular weight */
+    margin: 0.5rem 0;
   }
   
   .buy-button {
-    font-family: 'Montserrat', sans-serif;
     background-color: #f6f6f6;
     color: #333;
     padding: 0.5rem 1rem;
@@ -69,3 +69,4 @@ body {
   .buy-button:hover {
     background-color: #ddd;
   }
+  
